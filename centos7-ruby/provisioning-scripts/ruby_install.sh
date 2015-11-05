@@ -7,6 +7,7 @@ if [ ! -e '/home/vagrant/.rbenv/plugins/ruby-build' ]; then
   sudo yum -y install libxslt-devel
   # http://qiita.com/takuya3/items/e590642f0ee1577cfbf0
   sudo yum -y install libffi-devel.x86_64
+  sudo yum -y install readline-devel
 
   echo 'gem: --no-ri --no-rdoc' > ~/.gemrc
 
